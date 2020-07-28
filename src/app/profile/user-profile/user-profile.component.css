@@ -1,0 +1,16 @@
+.activity{
+    border-left: 4px solid black;
+}
+span{
+    width: 150px;
+}
+th {
+    text-align: center; 
+    vertical-align: middle;
+    height: 50px; 
+}
+tr {
+    text-align: center; 
+    vertical-align: middle;
+    height: 40px; 
+}

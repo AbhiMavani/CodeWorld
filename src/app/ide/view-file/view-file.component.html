@@ -1,0 +1,72 @@
+<div id="wrapper">
+  <app-header></app-header>
+  <div id="page-wrapper">
+  
+      <div class="container-fluid">
+  
+          <!-- Page Heading -->
+          <div class="row">
+              <div class="col-lg-12">
+                  <h1 class="page-header">
+                      IDE <small>Code, Compile & Run</small>
+                  </h1>
+              </div>
+          </div>
+     
+          
+            
+         
+         <div class="row">
+             <div class="col-lg-10">
+
+                    <div class="panel panel-default">
+
+                        <div class="panel-heading" style="padding: 13px 15px 0px 15px;">
+                            <div class="row">
+                                <div class="col-md-2 form-group">
+                                    <select class="form-control" (change)="onLanguageChange()" [(ngModel)]="lang" >
+                                        <option value="C">C</option>
+                                        <option value="C++">C++</option>
+                                        <option value="Python">Python</option>
+                                        <option value="Java">Java</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-md-2 form-group">
+                                    <select class="form-control" (change)="onThemeChange()" [(ngModel)]="theme">
+                                        <option value="ace/theme/clouds" > Clouds</option>
+                                        <option value="ace/theme/dracula">Dracula</option>
+                                        <option value="ace/theme/terminal">Terminal</option>
+                                        <option value="ace/theme/twilight">Twilight</option>
+                                        <option value="ace/theme/xcode">Xcode</option>
+                                        <option value="ace/theme/monokai">Monokai</option>
+                                        <option value="ace/theme/eclipse">Eclipse</option>
+                                        <option value="ace/theme/github">Github</option>
+                                        <option value="ace/theme/gob">Gob</option>
+                                        <option value="ace/theme/cobalt">Cobalt</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+                                        
+                                </div>
+
+                                
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <label>CODE</label>
+                                <pre id="editor" style="font-size:16px;height:500px;"></pre>        
+                        </div>
+                       
+                        
+                    </div>
+             </div>
+         </div>
+          
+         
+         
+      </div>
+      <!-- /.container-fluid -->
+  </div>
+      <!-- /#page-wrapper -->
+</div>
