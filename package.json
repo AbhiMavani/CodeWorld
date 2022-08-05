@@ -31,7 +31,7 @@
     "jsonwebtoken": "^8.4.0",
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
-    "mongoose": "^5.4.9",
+    "mongoose": "^5.7.5",
     "ngx-pagination": "^3.2.1",
     "ngx-select-dropdown": "^1.0.1",
     "ngx-toastr": "^9.1.1",
